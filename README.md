@@ -1,4 +1,4 @@
-# Exploração e Tratamento de Dados Textuais: Técnicas de Limpeza, Processamento e Visualização
+# Exploração e Tratamento de Dados Textuais
 
 ## Sumário
 - [Descrição do Dataset](#descrição-do-dataset)
