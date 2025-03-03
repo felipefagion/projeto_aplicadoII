@@ -1,5 +1,4 @@
-## Ciência de Dados na Prática: 
-## Exploração e Tratamento de Dados Textuais: Técnicas de Limpeza, Processamento e Visualização
+## Ciência de Dados na Prática: Exploração e Tratamento de Dados Textuais: Técnicas de Limpeza, Processamento e Visualização
 
 
 ## Sumário
