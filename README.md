@@ -1,16 +1,9 @@
-# Exploração e Tratamento de Dados Textuais
+# Aprimorando Dados Textuais: Análise de Sentimentos Guaraná Antarctica
 
 ## Sumário
-- [Descrição do Dataset](#descrição-do-dataset)
-- [Variáveis Incluídas](#variáveis-incluídas)
-- [Objetivo do Estudo](#objetivo-do-Estudo)
-- [Metodologia](#metodologia)
-- [Análise Exploratória](#análise-exploratória)
-- [Resultados Esperados](#resultados-esperados)
-- [Visualizações](#visualizações)
-- [Linguagem e Bibliotecas Utilizadas](#linguagem-e-bibliotecas-utilizadas)
-- [Licença](#licença)
-- [Contato](#contato)
+- [metadados](#metadados)
+- [Colaboradores](#Colaboradores Alunos)
+
 
 ## Colaboradores Alunos
 
