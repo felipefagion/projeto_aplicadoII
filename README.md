@@ -37,10 +37,3 @@
 
 **Professor**  
 - Felipe Albino Dos Santos
-
----
-
-## Licença de Uso
-
-- A licença da API do Twitter permite o uso dos dados para fins de pesquisa, análise e desenvolvimento. 
-- O uso comercial ou redistribuição dos dados requer permissão adicional do Twitter.
