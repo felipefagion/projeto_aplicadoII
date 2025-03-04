@@ -19,7 +19,7 @@ Com essa abordagem, o estudo busca oferecer uma contribuição significativa par
 
 ---
 
-### METADADOS
+### Metadados
 
 **Fonte dos Dados**  
 - **Site de Origem:** X (Antigo Twitter)
