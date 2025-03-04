@@ -1,13 +1,13 @@
 # Aprimorando Dados Textuais: Análise de Sentimentos Guaraná Antarctica
 
-## Sumário
+### Sumário
 - [Metadados](#metadados)
 - [Colaboradores](#colaboradores)
 - [Licença de Uso](#licença-de-uso)
 
 ---
 
-## METADADOS
+### METADADOS
 
 **Fonte dos Dados**  
 - **Site de Origem:** X (Antigo Twitter)
