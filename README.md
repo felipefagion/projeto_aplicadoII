@@ -39,7 +39,7 @@ Com essa abordagem, o estudo busca oferecer uma contribuição significativa par
 
 ---
 
-## Colaboradores
+### Colaboradores
 
 **Alunos**  
 - Felipe Fagion Longarini  
