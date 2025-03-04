@@ -48,4 +48,12 @@ Com essa abordagem, o estudo busca oferecer uma contribuição significativa par
 - Gabriel Henrique Titanegro Zanelatto  
 
 **Professor**  
-- Felipe Albino Dos Santos  
+- Felipe Albino Dos Santos
+
+
+<br>
+
+![Imagem de Exemplo](https://assets.propmark.com.br/uploads/2020/01/guarana-antarctica.jpg)
+
+
+
