@@ -1,8 +1,8 @@
 # Aprimorando Dados Textuais: Análise de Sentimentos Guaraná Antarctica
 
 ## Sumário
-- [metadados](#metadados)
-- [Colaboradores](#Colaboradores Alunos)
+- [Metadados](#metadados)
+- [Colaboradores](#Colaboradores-Alunos)
 
 
 ## Colaboradores Alunos
