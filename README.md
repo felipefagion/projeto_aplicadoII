@@ -50,4 +50,6 @@ Com essa abordagem, o estudo busca oferecer uma contribuição significativa par
 **Professor**  
 - Felipe Albino Dos Santos
 
-https://assets.propmark.com.br/uploads/2020/01/guarana-antarctica.jpg
+![Imagem de Exemplo]([https://tecimob.com.br/blog/wp-content/uploads/2024/02/avaliacao-de-imoveis-2.jpg](https://assets.propmark.com.br/uploads/2020/01/guarana-antarctica.jpg))
+
+
