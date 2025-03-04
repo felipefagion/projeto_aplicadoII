@@ -1,13 +1,13 @@
-# Aprimorando Dados Textuais: Análise de Sentimentos Guaraná Antarctica
+# Aprimorando Dados Textuais: Análise de Sentimentos Guaraná Antarctica 🍹
 
-### Sumário
+### Sumário 📑
 - [Introdução](#introdução)
 - [Metadados](#metadados)
 - [Colaboradores](#colaboradores)
 
 ---
 
-### Introdução
+### Introdução ✨
 
 No cenário atual, onde a interação entre consumidores e marcas ocorre de maneira cada vez mais digital, a análise de sentimentos tem se destacado como uma ferramenta essencial para a compreensão da experiência do cliente. A coleta e interpretação de opiniões expressas em redes sociais fornecem insights valiosos sobre a percepção do público em relação a um produto ou serviço.
 
@@ -19,7 +19,7 @@ Com essa abordagem, o estudo busca oferecer uma contribuição significativa par
 
 ---
 
-### Metadados
+### Metadados 📊
 
 **Fonte dos Dados**  
 - **Site de Origem:** X (Antigo Twitter)
@@ -39,7 +39,7 @@ Com essa abordagem, o estudo busca oferecer uma contribuição significativa par
 
 ---
 
-### Colaboradores
+### Colaboradores 👥
 
 **Alunos**  
 - Felipe Fagion Longarini  
@@ -49,11 +49,3 @@ Com essa abordagem, o estudo busca oferecer uma contribuição significativa par
 
 **Professor**  
 - Felipe Albino Dos Santos
-
-
-<br>
-
-![Imagem de Exemplo](https://assets.propmark.com.br/uploads/2020/01/guarana-antarctica.jpg)
-
-
-
