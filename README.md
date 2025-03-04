@@ -51,9 +51,7 @@ Com essa abordagem, o estudo busca oferecer uma contribuição significativa par
 - Felipe Albino Dos Santos
 
 
-
-
-
+<br>
 
 ![Imagem de Exemplo](https://assets.propmark.com.br/uploads/2020/01/guarana-antarctica.jpg)
 
