@@ -1,7 +1,7 @@
-# Aprimorando Dados Textuais: Análise de Sentimentos Guaraná Antarctica 🍹
+# Aprimorando Dados Textuais: Análise de Sentimentos Guaraná Antarctica
 
-### Sumário 📑
-- [Introdução](#introdução)
+### Sumário
+- [Introdução](#introducao)
 - [Metadados](#metadados)
 - [Colaboradores](#colaboradores)
 
