@@ -27,6 +27,25 @@ Com essa abordagem, o estudo busca oferecer uma contribuição significativa par
 **Método de Coleta**  
 - **API:** API do Twitter (via Twitter Developer API)
 
+| Nome da Coluna                 | Tipo    | Descrição                                                                                                                                         |
+|--------------------------------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| **tweet_id**                   | int64   | Identificador único do tweet.                                                                                                                     |
+| **airline_sentiment**          | object  | Classificação do sentimento do tweet (por exemplo, positivo, negativo ou neutro).                                                                |
+| **airline_sentiment_confidence** | float64 | Nível de confiança associado à classificação do sentimento.                                                                                     |
+| **negativereason**             | object  | Motivo associado à classificação negativa, quando aplicável (nem todos os tweets possuem esse valor).                                             |
+| **negativereason_confidence**  | float64 | Nível de confiança na identificação do motivo negativo.                                                                                         |
+| **airline**                  | object  | Nome da companhia aérea mencionada no tweet.                                                                                                      |
+| **airline_sentiment_gold**   | object  | Anotação de sentimento padrão (gold standard) para validação, disponível para uma amostra restrita.                                                 |
+| **name**                     | object  | Nome ou identificador do usuário que postou o tweet.                                                                                              |
+| **negativereason_gold**      | object  | Anotação gold do motivo negativo, usada para validação, disponível em poucos casos.                                                               |
+| **retweet_count**            | int64   | Número de vezes que o tweet foi retweetado.                                                                                                       |
+| **text**                     | object  | Conteúdo textual completo do tweet.                                                                                                               |
+| **tweet_coord**              | object  | Coordenadas geográficas (latitude e longitude) do tweet, quando disponíveis.                                                                      |
+| **tweet_created**            | object  | Data e hora em que o tweet foi criado.                                                                                                            |
+| **tweet_location**           | object  | Localização informada no tweet, quando disponível.                                                                                              |
+| **user_timezone**            | object  | Fuso horário do usuário que postou o tweet, quando disponível.                                                                                    |
+
+
 **Formato do Arquivo**  
 - **Tipo de Arquivo:** JSON
 
@@ -38,6 +57,8 @@ Com essa abordagem, o estudo busca oferecer uma contribuição significativa par
 - Caso precise de informações adicionais ou queira discutir o uso dos dados, o contato pode ser feito por meio do suporte da API do Twitter: [Suporte Twitter Developer](https://developer.twitter.com/en/support)
 
 ---
+
+
 
 ### Colaboradores
 
