@@ -1,21 +1,23 @@
-# Aprimorando Dados Textuais: Análise de Sentimentos Guaraná Antarctica
+# Definição do Método Analítico para Análise de Sentimentos em Companhias Aéreas
 
 ### Sumário
 - [Introdução](#introdução)
 - [Metadados](#metadados)
+- [Metadatas](#Metadata)
 - [Colaboradores](#colaboradores)
 
 ---
 
 ### Introdução
 
-No cenário atual, onde a interação entre consumidores e marcas ocorre de maneira cada vez mais digital, a análise de sentimentos tem se destacado como uma ferramenta essencial para a compreensão da experiência do cliente. A coleta e interpretação de opiniões expressas em redes sociais fornecem insights valiosos sobre a percepção do público em relação a um produto ou serviço.
+No cenário atual, onde a jornada de migração internacional exige cada vez mais planejamento e decisões bem informadas, o uso da análise de sentimentos tem se consolidado como uma estratégia eficaz para compreender a percepção dos consumidores em tempo real. As redes sociais, especialmente o X (antigo Twitter), tornaram-se espaços essenciais para que os usuários compartilhem suas experiências, elogios e frustrações — oferecendo, assim, um valioso repositório de dados sobre empresas e serviços.
 
-Neste contexto, o presente projeto tem como objetivo aprimorar a análise de dados textuais, focando na avaliação das opiniões dos consumidores sobre o **Guaraná Antarctica**, uma das marcas mais icônicas do Brasil no setor de bebidas. Fundado em 1921, o Guaraná Antarctica é uma referência no segmento de refrigerantes e destaca-se por seu forte apelo cultural, patrocínio a eventos esportivos e presença consolidada em mercados nacionais e internacionais.
+Neste contexto, o presente projeto tem como objetivo aplicar técnicas de processamento de linguagem natural (NLP) e aprendizado de máquina para analisar as opiniões de brasileiros sobre diferentes companhias aéreas, com foco na experiência de voos entre o Brasil e os Estados Unidos. A iniciativa será conduzida pela Decolar, uma das maiores empresas de viagens da América Latina, fundada em 1999 e com presença em mais de 20 países. Reconhecida por seu papel inovador no turismo digital, a Decolar oferece uma ampla gama de serviços, incluindo passagens aéreas, hospedagens, pacotes de viagem e suporte personalizado ao cliente.
 
-Para entender melhor a experiência do consumidor e sua percepção sobre o produto, este estudo utilizará dados extraídos do **X**, antigo Twitter, uma das plataformas mais dinâmicas para a expressão de opiniões dos usuários. Por meio de técnicas de processamento de linguagem natural (NLP) e aprendizado de máquina, será possível categorizar sentimentos positivos, negativos e neutros relacionados ao Guaraná Antarctica, possibilitando a identificação de padrões e tendências que podem influenciar estratégias de marketing e melhorias no produto.
+Com base em dados coletados diretamente do X, este estudo pretende identificar sentimentos positivos, negativos e neutros em relação às principais companhias aéreas utilizadas por brasileiros, fornecendo insights relevantes para orientar futuras decisões de viagem. A partir da análise desses sentimentos, será possível detectar padrões de preferência, pontos críticos na experiência dos passageiros e sugestões de melhorias que podem ser integradas aos serviços da Decolar.
 
-Com essa abordagem, o estudo busca oferecer uma contribuição significativa para a gestão da marca, auxiliando na tomada de decisões baseadas em dados reais e proporcionando uma visão mais aprofundada sobre a satisfação do consumidor. Dessa forma, a análise de sentimentos aplicada ao **Guaraná Antarctica** não apenas reforça o entendimento sobre o relacionamento da marca com seu público, mas também demonstra o impacto da inteligência artificial na geração de insights para o mercado de bebidas.
+Dessa forma, a proposta não apenas reforça o compromisso da empresa com a excelência no atendimento e a personalização da jornada do cliente, mas também evidencia como a inteligência artificial pode ser uma poderosa aliada na construção de soluções mais humanas, eficientes e alinhadas às reais necessidades de quem deseja realizar o sonho de migrar para os Estados Unidos com segurança e tranquilidade.
+
 
 ---
 
@@ -27,15 +29,34 @@ Com essa abordagem, o estudo busca oferecer uma contribuição significativa par
 **Método de Coleta**  
 - **API:** API do Twitter (via Twitter Developer API)
 
-**Formato do Arquivo**  
-- **Tipo de Arquivo:** JSON
 
-**Licença de Uso**  
-- A licença da API do Twitter permite o uso dos dados para fins de pesquisa, análise e desenvolvimento, mas com restrições sobre o uso comercial ou redistribuição sem permissão expressa.  
-- **Fonte:** [Licença da API do Twitter](https://developer.twitter.com/en/developer-terms/agreement-and-policy)
+**Formato do Arquivo**  
+- **Tipo de Arquivo:** CSV
 
 **Contato**  
 - Caso precise de informações adicionais ou queira discutir o uso dos dados, o contato pode ser feito por meio do suporte da API do Twitter: [Suporte Twitter Developer](https://developer.twitter.com/en/support)
+
+---
+
+### Metadata
+
+| Nome da Coluna                 | Tipo    | Descrição                                                                                                                                         |
+|--------------------------------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| **tweet_id**                   | int64   | Identificador único do tweet.                                                                                                                     |
+| **airline_sentiment**          | object  | Classificação do sentimento do tweet (por exemplo, positivo, negativo ou neutro).                                                                |
+| **airline_sentiment_confidence** | float64 | Nível de confiança associado à classificação do sentimento.                                                                                     |
+| **negativereason**             | object  | Motivo associado à classificação negativa, quando aplicável (nem todos os tweets possuem esse valor).                                             |
+| **negativereason_confidence**  | float64 | Nível de confiança na identificação do motivo negativo.                                                                                         |
+| **airline**                  | object  | Nome da companhia aérea mencionada no tweet.                                                                                                      |
+| **airline_sentiment_gold**   | object  | Anotação de sentimento padrão (gold standard) para validação, disponível para uma amostra restrita.                                                 |
+| **name**                     | object  | Nome ou identificador do usuário que postou o tweet.                                                                                              |
+| **negativereason_gold**      | object  | Anotação gold do motivo negativo, usada para validação, disponível em poucos casos.                                                               |
+| **retweet_count**            | int64   | Número de vezes que o tweet foi retweetado.                                                                                                       |
+| **text**                     | object  | Conteúdo textual completo do tweet.                                                                                                               |
+| **tweet_coord**              | object  | Coordenadas geográficas (latitude e longitude) do tweet, quando disponíveis.                                                                      |
+| **tweet_created**            | object  | Data e hora em que o tweet foi criado.                                                                                                            |
+| **tweet_location**           | object  | Localização informada no tweet, quando disponível.                                                                                              |
+| **user_timezone**            | object  | Fuso horário do usuário que postou o tweet, quando disponível.                                                                                    |
 
 ---
 
@@ -53,4 +74,3 @@ Com essa abordagem, o estudo busca oferecer uma contribuição significativa par
 
 <br>
 
-![Imagem de Exemplo](https://assets.propmark.com.br/uploads/2020/01/guarana-antarctica.jpg)
