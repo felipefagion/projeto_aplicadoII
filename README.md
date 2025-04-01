@@ -28,6 +28,17 @@ Dessa forma, a proposta não apenas reforça o compromisso da empresa com a exce
 **Método de Coleta**  
 - **API:** API do Twitter (via Twitter Developer API)
 
+
+**Formato do Arquivo**  
+- **Tipo de Arquivo:** JSON
+
+**Contato**  
+- Caso precise de informações adicionais ou queira discutir o uso dos dados, o contato pode ser feito por meio do suporte da API do Twitter: [Suporte Twitter Developer](https://developer.twitter.com/en/support)
+
+---
+
+### Metadata
+
 | Nome da Coluna                 | Tipo    | Descrição                                                                                                                                         |
 |--------------------------------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | **tweet_id**                   | int64   | Identificador único do tweet.                                                                                                                     |
@@ -46,20 +57,7 @@ Dessa forma, a proposta não apenas reforça o compromisso da empresa com a exce
 | **tweet_location**           | object  | Localização informada no tweet, quando disponível.                                                                                              |
 | **user_timezone**            | object  | Fuso horário do usuário que postou o tweet, quando disponível.                                                                                    |
 
-
-**Formato do Arquivo**  
-- **Tipo de Arquivo:** JSON
-
-**Licença de Uso**  
-- A licença da API do Twitter permite o uso dos dados para fins de pesquisa, análise e desenvolvimento, mas com restrições sobre o uso comercial ou redistribuição sem permissão expressa.  
-- **Fonte:** [Licença da API do Twitter](https://developer.twitter.com/en/developer-terms/agreement-and-policy)
-
-**Contato**  
-- Caso precise de informações adicionais ou queira discutir o uso dos dados, o contato pode ser feito por meio do suporte da API do Twitter: [Suporte Twitter Developer](https://developer.twitter.com/en/support)
-
 ---
-
-
 
 ### Colaboradores
 
