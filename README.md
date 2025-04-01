@@ -1,4 +1,4 @@
-# Aprimorando Dados Textuais: Análise de Sentimentos Guaraná Antarctica
+# Definição do Método Analítico para Análise de Sentimentos em Companhias Aéreas
 
 ### Sumário
 - [Introdução](#introdução)
