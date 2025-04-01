@@ -31,7 +31,7 @@ Dessa forma, a proposta não apenas reforça o compromisso da empresa com a exce
 
 
 **Formato do Arquivo**  
-- **Tipo de Arquivo:** JSON
+- **Tipo de Arquivo:** CSV
 
 **Contato**  
 - Caso precise de informações adicionais ou queira discutir o uso dos dados, o contato pode ser feito por meio do suporte da API do Twitter: [Suporte Twitter Developer](https://developer.twitter.com/en/support)
