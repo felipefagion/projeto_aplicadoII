@@ -3,6 +3,7 @@
 ### Sumário
 - [Introdução](#introdução)
 - [Metadados](#metadados)
+- [Metadatas](#Metadata)
 - [Colaboradores](#colaboradores)
 
 ---
