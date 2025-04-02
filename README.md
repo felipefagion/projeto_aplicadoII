@@ -23,18 +23,25 @@ Dessa forma, a proposta não apenas reforça o compromisso da empresa com a exce
 
 ### Metadados
 
-**Fonte dos Dados**  
-- **Site de Origem:** X (Antigo Twitter)
+### Fonte dos Dados
 
-**Método de Coleta**  
-- **API:** API do Twitter (via Twitter Developer API)
+Os dados foram obtidos do conjunto ["Twitter US Airline Sentiment"](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) disponível no Kaggle.
 
+### Método de Coleta
 
-**Formato do Arquivo**  
-- **Tipo de Arquivo:** CSV
+Os tweets foram coletados em fevereiro de 2015 e classificados manualmente por sentimento (positivo, neutro ou negativo) em relação às principais companhias aéreas dos EUA.
 
-**Contato**  
-- Caso precise de informações adicionais ou queira discutir o uso dos dados, o contato pode ser feito por meio do suporte da API do Twitter: [Suporte Twitter Developer](https://developer.twitter.com/en/support)
+### Formato do Arquivo
+
+- **Tipo de Arquivo**: CSV (Comma-Separated Values).
+
+### Licença de Uso
+
+Os dados são disponibilizados no Kaggle para fins de pesquisa, análise e desenvolvimento, sendo permitida sua utilização para esses propósitos. No entanto, o uso comercial ou a redistribuição sem autorização expressa pode estar sujeito a restrições.
+
+### Contato
+
+Para mais informações ou dúvidas sobre o uso dos dados, consulte a [página do conjunto de dados no Kaggle](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) ou utilize os canais de comunicação da plataforma.
 
 ---
 
